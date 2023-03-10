@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ALL.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="googlechart.js"></script>
+    <script src="tapmenu.js"></script>
+</head>
+<body>
+    <div id="body">
+        <div id="header">
+            <div id="btn">
+                <a id="button" href="./">홈</a>
+                <a id="button" onclick="fetchpage('aboutme.html')">자기소개</a>
+                <a id="button" onclick="fetchpage('photo.html')">내사진</a>
+            </div>
+        <div id="BOX">
+            <input id="Button" type ="button" value="night">
+            <script src="NightDAY.js"></script>
+        </div>
+        </div>
+
+    <article>
+        <h1 style="text-align: center;">
+                Welcome to my house!
+        </h1>
+        <div id="map" style="width:500px;height:400px;"></div>
+            <script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=489e5847fae6db3b37aa30f32582eb66"></script>
+            <script src="map.js"></script>
+        <div id="wrapper">
+        <h1 style="text-align: center;">
+                한국인이 가장 많이 찾은 해외여행지 TOP 5 (2001~2018년)
+        </h1>
+        <div id="donutchart" style="width: 900px; height: 500px;"></div>
+        <h6>출처 : https://catalk.kr/attractions/south-koreans-most-visited-countries.html</h6>
+        </div>
+    </article>
+
+    <footer>
+        <h6 id="footer">
+            E-mail : parksang_h@naver.com<br>
+            Address : 서울 영등포구 당산동
+        </h6>
+    </footer>
+</div>
+
+</body>
+</html>
+
